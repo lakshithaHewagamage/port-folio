@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--favicon-->
+    <link rel="icon" href="./images/fav.jpeg">
+    <!--jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+</head>
+<body>
+    <div class="scroll-up-btn">
+        <i class="fa fa-angle-up"></i>
+    </div>
+    <!--navbar-->
+    <nav class="navbar">
+        
+        <div class="max-width">
+            <div class="logo"><b class="label darkMode"> <span id="toggle" onclick="changeMode();">Dark Mode</span></b><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#home" class="active nav-title">Home</a></li>
+                <li><a href="#about" class="nav-title">About</a></li>
+                <li><a href="#services" class="nav-title">Services</a></li>
+                <li><a href="#skills" class="nav-title">Skills</a></li>
+                <li><a href="#contact" class="nav-title">Contcts</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="max-width">
+            <div class="home-content">
+                <div class="text-1">Lakshitha Sheshan,</div>
+                <div class="text-2">I am a <span id="special">Web Designer </span></div>
+                <div class="text-3">from <span>Sri Lanka.</span></div>
+                <a href="#">Hire Me</a>
+            </div>
+            <div class="social-media-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-youtube"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+    </section>
+
+    <!--About section-->
+    <section class="about" id="about">
+        <div class="max-width">
+            <h2 class="title">About Me</h2>
+            <div class="about-content">
+                <div class="column left">
+                    <img src="./images/person.jpg" alt="image">
+                </div>
+                <div class="column right">
+                    <div class="text">I am lakshitha and I am <span id=change>Web Developer</span></div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores harum facilis, quae fugit sit tempore doloremque labore voluptas nesciunt natus. Similique corporis, molestiae aut nesciunt inventore laudantium totam dolorum quam!</p>
+                    <a href="#">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sservices sectiion-->
+    <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">My Services</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-paint-brush"></i>
+                        <div class="text">Web Design</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nostrum deserunt libero corrupti praesentium illum.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-code"></i>
+                        <div class="text">Programming</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nostrum deserunt libero corrupti praesentium illum.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fa fa-home"></i>
+                        <div class="text">Teaching</div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error nostrum deserunt libero corrupti praesentium illum.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--skill section-->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">My Skills</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative & Experience.</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non inventore eaque unde esse adipisci sit temporibus necessitatibus magnam, doloribus ea dolor minima itaque molestiae, corrupti reiciendis assumenda et deleniti accusantium?</p>  
+                    <a href="#">Read More</a>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>PHP</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="line php"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>MySQL</span>
+                            <span>45%</span>
+                        </div>
+                        <div class="line mysql"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--contact sectiion-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contact Me</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Get In Touch</div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium nesciunt, perferendis delectus, doloribus voluptates aut quaerat culpa id a aliquam modi nobis. Accusantium beatae vitae reprehenderit itaque quae iusto excepturi?</p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fa fa-user"></i>
+                            <div class="info">
+                                <div class="head">Name</div>
+                                <div class="sub-title">lakshitha Sheshan</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa fa-map-marker"></i>
+                            <div class="info">
+                                <div class="head">Address</div>
+                                <div class="sub-title">Matara, Sri Lanka</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fa fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">E-mail</div>
+                                <div class="sub-title">abc@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Message Me</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Name" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="subject">
+                        </div>
+                        <div class="field textarea">
+                            <textarea placeholder="Describe project.." cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--footer section-->
+    <footer>
+        <span>Created by <a href="#">lakia</a> | <span class="fa fa-copyright"></span>2021 All rights reserved..</span></span>
+    </footer>
+     <script src="./script.js"></script>
+</body>
+</html>
